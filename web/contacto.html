@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Descripción de mi web"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html"><img src="../imagenes/logo2.png"></a>
+    <nav>
+        <a id="principal" href="../index.html"><span>Página principal</span></a>
+        <a id="contacto" href="contacto.html"><span>Contacto</span></a>
+        <a id="acerca_de" href="../web/acercade.html"><span>Acerca de</span></a>
+        <!-- <a href="index.html">Inicio</a>
+        <a href="web/login.html">Iniciar Sesión</a>
+        <a href="web/contacto.html">Contacto</a>
+        <a href="web/acerca.html">Acerca de</a> -->
+    </nav>
+    <div class="opciones">
+        <img id="buscar" src="../imagenes/buscar.png" alt="">
+        <img id="usuario" src="../imagenes/usuario.png" alt="">
+        <div class="userMenu">
+            <a href="login.html">Login</a>
+            <a href="registro.html">Registro</a>
+        </div>
+    </div>
+    </header>
+    <h1>Mi contacto</h1>
+
+
+    <form>
+        <label>Tu nombre: </label>
+        <br>
+        <input type="text" placeholder="escribe tu nombre" required>
+
+    <br>
+
+        <div>
+        <label>Tu apellido: </label>
+        </div>
+        <div>
+        <input type="text" placeholder="escribe tu nombre">
+        </div>
+
+    <br>
+
+        <label>Fecha nacimiento: </label>
+        <br>
+        <input type="date">
+
+    <br>
+    <h1>Como nos conociste?</h1>
+    <input type="radio" id="email1"  name="contact">
+    <label for="email">Email</label>
+    <input type="radio" id="telefono1"  name="contact">
+    <label for="telefono1">Telefono</label>
+    <br>
+    <h2>Como nos conociste?</h1>
+    <select>
+
+        <option value="Email">Email</option>
+        <option  value="Telefono">Telefono</option>
+    </select>
+    <br>
+    <input type="submit" value="Enviar">
+    <br>
+    <a href="../index.html" >Volver</a>
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+html{
+    /*font-family: 'Trocchi', serif;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    height: 4rem;
+    background-color:  #f59698;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 4rem;
+}
+
+/*NAV*/
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+    color: #474747;
+}
+
+#principal{
+    font-weight: 700;
+    color: black;
+}
+
+.opciones{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 7rem;
+    justify-content: space-between;
+}
+
+#buscar{
+    width: 2rem;
+}
+
+#carrito{
+    width: 2.2rem;
+    padding-right: 0.5rem;
+}
+
+#usuario{
+    width: 2rem;
+}
+
+.userMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: #f59698;
+    position: absolute;
+    right: -0.3rem;
+    bottom: -5.6rem;
+}
+
+.userMenu a{
+    padding: 0.75rem 2rem;
+    /*background:*/
+}
+
+/***CONTENEDOR - LOGIN***/
+
+.contenedor{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0,0,0, .5);
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.contenedor .elemento label{
+    color: white;
+}
+
+.contenedor .elemento2 label{
+    color: white;
+}
+
+.contenedor .elemento input{
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    cursor: default;
+}
+
+.contenedor .elemento input::placeholder{
+    color: #555555;
+}
+
+.contenedor .elemento input[type="submit"]{
+    background-color: #474747;
+    border: none;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.contenedor .elemento a,p{
+    color: moccasin;
+    text-decoration: none;
+}
+
+/*MAIN - INDEX*/
+
+/***BANNER***/
+
+.sctBanner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-image: url("../imagenes/BackgroundBanner.png");
+}
+
+.banner{
+    height: 12rem;
+    padding-top: 20px;
+}
+
+.sctBanner h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/***FOOTER***/
+
+footer{
+    clear: both;
+    padding: 1px;
+    text-align: left;
+}
+
+footer a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+
+.iconsFooter{
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+}

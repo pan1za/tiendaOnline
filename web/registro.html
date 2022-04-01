@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Descripción de mi web"/>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet"> -->
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="../index.html"><img src="../imagenes/logo2.png"></a>
+    <nav>
+        <a id="principal" href="../index.html"><span>Página principal</span></a>
+        <a id="contacto" href="contacto.html"><span>Contacto</span></a>
+        <a id="acerca_de" href="acercade.html"><span>Acerca de</span></a>
+    </nav>
+    <div class="opciones">
+        <img id="buscar" src="../imagenes/buscar.png" alt="">
+        <img id="usuario" src="../imagenes/usuario.png" alt="">
+        <div class="userMenu">
+            <a href="login.html">Login</a>
+            <a href="registro.html">Registro</a>
+        </div>
+    </div>
+    </header>
+    <div class="contenedor">
+        <form method="GET" autocomplete="on">
+            <h2>Registro</h2>
+            <div class="elemento">
+                <label for="nombre">Nombres: </label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" autocomplete="off" required>
+            </div>
+            <div class="elemento">
+                <label for="apellido">Apellidos:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellio" autocomplete="off" required>
+            </div>
+            <div class="elemento">
+                <label>Correo:</label>
+                <input type="email" id="correo" name="correo" placeholder="Escribe tu correo" autocomplete="off" required>
+            </div>
+            <div class="elemento">
+                <label>Fecha de nacimiento:</label>
+                <input type="date" id="date" name="date">
+            </div>
+            <div class="elemento">
+                <label>Contraseña:</label>
+                <input type="password" id="password" name="password" placeholder="Escribe tu contraseña" autocomplete="off" required>
+            </div>
+            <div class="elemento2">
+                <label>Género:</label><br>
+                <input type="radio" name="genero" id="femenino" value="femenino">
+                <label for="femenino">Femenino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+                <label for="masculino">Masculino</label>
+            </div>
+            <div class="elemento">
+                <input type="submit" value="Registrarse">
+            </div>
+            <div class="elemento">
+                <p>¿Ya tienes cuenta? <b><a href="login.html">Inicia Sesión</a></b></p>
+            </div>
+    </form>
+    </div>
+</body>
+</html>
