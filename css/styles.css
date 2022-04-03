@@ -52,6 +52,38 @@ nav a{
     justify-content: space-between;
 }
 
+.opciones img:first-child{
+    width: 2rem;
+    height: 2rem;
+}
+
+.opciones img{
+    width: 2rem;
+}
+
+#usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#usuario:hover .userMenu{
+    max-height: 6rem;
+}
+
+.userMenu{
+    transition: max-height ease-in-out 0.5s 0.1s;
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #f59698;
+    position: absolute;
+    right: 0;
+    top: 4rem;
+}
+
 #buscar{
     width: 2rem;
 }
@@ -59,19 +91,6 @@ nav a{
 #carrito{
     width: 2.2rem;
     padding-right: 0.5rem;
-}
-
-#usuario{
-    width: 2rem;
-}
-
-.userMenu{
-    display: flex;
-    flex-direction: column;
-    background-color: #f59698;
-    position: absolute;
-    right: -0.3rem;
-    bottom: -5.6rem;
 }
 
 .userMenu a{
